@@ -15,5 +15,5 @@ Star :star: this gist if it was useful. Follows to my GitHub Profile are appreci
 ---
 
 <div align="center">
-    <p>TheOnlyWayUp © 2024</p>
+    <p>FunWolfgun© 2025</p>
 </div>
