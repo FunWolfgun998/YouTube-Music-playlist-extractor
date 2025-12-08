@@ -2,7 +2,7 @@ This script return all the songs in a Youtube Music Playlist at once as a list o
 
 ## How to use:
 - Visit a Playlist's page on ytm (URL looks like: `https://music.youtube.com/playlist?list=...`
-- Press `ctrl` + `shift` + `j` or F12 to open the Developer Console.
+- Press `ctrl` + `shift` + `j` or `F12` to open the Developer Console.
 - Copy the script in this gist (That's in `Song Link Catcher txt file generator.js`)
 - Paste the code into the Developer Console on the ytm Tab, hit enter.
 - Great, you're done!
