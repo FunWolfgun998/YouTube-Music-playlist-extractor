@@ -1,4 +1,4 @@
-// Gets all the songs
+// firt part of the code return in the console all the links of the playlist.
 let songs = document.querySelectorAll('ytmusic-responsive-list-item-renderer');
 let output = "";
 
@@ -8,11 +8,11 @@ songs.forEach(song => {
         if (linkTag) {
             let href = linkTag.href;
             let urlObj = new URL(href);
-            let videoId = urlObj.searchParams.get("v");
+            let songId = urlObj.searchParams.get("v");
             
-            if (videoId) {
-                // add every song to the output varible
-                output += `https://music.youtube.com/watch?v=${videoId}\n`;
+            if (songId) {
+                // add every song to the output variable by adding the songId
+                output += `https://music.youtube.com/watch?v=${songId}\n`;
             }
         }
     } catch (e) {
@@ -27,11 +27,11 @@ if (output.length > 0) {
     let url = URL.createObjectURL(blob);
     let a = document.createElement('a');
     a.href = url;
-    a.download = 'playlist_links.txt'; // Nome del file che scaricherai
+    a.download = 'playlist_links.txt'; // Name of the file. You can chage it to whatever you want.
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
-    console.log(`Fatto! Ho trovato ${output.split('\n').length - 1} canzoni. Il download dovrebbe partire.`);
+    console.log(`Done! Found ${output.split('\n').length - 1} songs. Start download txt file...`);
 } else {
     console.log("Warning: I couldn't find any songs. Make sure you scroll down to load them all before running the code.");
 }
