@@ -9,7 +9,7 @@ This script return all the songs in a Youtube Music Playlist at once as a list o
 
 Star :star: this gist if it was useful. Follows to my GitHub Profile are appreciated.
 
-[![Star Badge](https://img.shields.io/badge/-%40FunWolfgun998-purple?style=for-the-badge&logo=github&logoColor=green&label=Follow&link=https%3A%2F%2Fgithub.com%2FunWolfgun998)](https://github.com/FunWolfgun998)
+[![Star Badge](https://img.shields.io/badge/-%40FunWolfgun998-purple?style=for-the-badge&logo=github&logoColor=black&label=Follow&link=https%3A%2F%2Fgithub.com%2FunWolfgun998)](https://github.com/FunWolfgun998)
 
 
 ---
