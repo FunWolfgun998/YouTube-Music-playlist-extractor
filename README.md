@@ -1,5 +1,5 @@
 # YouTube Music playlist extractor
-This script return a txt/csv/json file with all the songs from a YouTube Music playlist.<br>
+This script return a txt/csv/json file with all the infos songs from a YouTube Music playlist.<br>
 It can return: name of the song, name of the artist, name of the album, link of the song, id of the song.
 
 ## How to use:
