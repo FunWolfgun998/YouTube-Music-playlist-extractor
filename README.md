@@ -6,7 +6,7 @@ It can return: name of the song, name of the artist, name of the album, link of 
 - Visit a Playlist's page on ytm (URL looks like: `https://music.youtube.com/playlist?list=...`
 - Scroll down to the bottom to load all songs of the playlist.
 - Press `ctrl` + `shift` + `j` or `F12` to open the Developer Console.
-- Copy the script in this repo (That's in `Song Link Catcher txt file generator.js`)
+- Copy the script in this repo (That's in `YouTube-Music-playlist-extractor.js`)
 - Paste the code into the Developer Console on the ytm Tab, hit enter.
 - Answer the questions in the pop-up windows.
 - Great, you're done!
